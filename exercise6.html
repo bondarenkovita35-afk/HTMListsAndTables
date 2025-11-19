@@ -3,35 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <title>Exercise 6</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+
+        th, td {
+            padding: 4px 10px;
+        }
+
+        /* только вертикальные границы между колонками */
+        th, td {
+            border-left: 1px solid black;
+            border-right: 1px solid black;
+        }
+    </style>
 </head>
 <body>
-
-    <h2>Colspan Example</h2>
-
-    <!-- Table with colspan -->
-    <table border="1">
+    <table>
         <tr>
-            <th>Month</th>
-            <th>Savings</th>
-            <th>Extra</th>
+            <th>Video Number</th>
+            <th>Topic</th>
+            <th>Number of Questions</th>
+            <th>Video Duration</th>
         </tr>
 
         <tr>
-            <td>January</td>
-            <td>100 kr</td>
-            <td>50 kr</td>
+            <td>1</td>
+            <td>Prolog basics</td>
+            <td>1</td>
+            <td>14m 46s</td>
         </tr>
 
         <tr>
-            <td>February</td>
-            <td>80 kr</td>
-            <td>20 kr</td>
+            <td>2</td>
+            <td>Solving a logic puzzle</td>
+            <td>7</td>
+            <td>13m 57s</td>
         </tr>
-
-        <!-- Colspan merges 3 columns -->
-        <tr>
-            <td colspan="3">Total: 250 kr</td>
-        </tr>
+        
     </table>
 
 </body>
