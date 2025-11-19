@@ -3,40 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title>Exercise 5</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 8px 16px;
+            text-align: center;
+        }
+
+        .row-b {
+            background-color: red;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-
-    <h2>Products Table</h2>
-
-    <!-- Table with thead, tbody and tfoot -->
-    <table border="1">
-
-        <thead>
-            <tr>
-                <th>Product</th>
-                <th>Price (kr)</th>
-            </tr>
-        </thead>
-
-        <tbody>
-            <tr>
-                <td>Bread</td>
-                <td>20</td>
-            </tr>
-            <tr>
-                <td>Milk</td>
-                <td>15</td>
-            </tr>
-        </tbody>
-
-        <tfoot>
-            <tr>
-                <td>Total</td>
-                <td>35</td>
-            </tr>
-        </tfoot>
-
+    <table>
+        <tr>
+            <td>A1</td>
+            <td>A2</td>
+            <td>A3</td>
+        </tr>
+        <tr class="row-b">
+            <td>B1</td>
+            <td>B2</td>
+            <td>B3</td>
+        </tr>
     </table>
-
+    
 </body>
 </html>
